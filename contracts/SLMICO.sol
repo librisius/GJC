@@ -290,13 +290,13 @@ contract SLMICO is Pausable{
     if (now < startTime.add(2 days)){
       // day 1, day 2
       return 420;
-    }else if (now < startTime.add(4 days)){
+    } else if (now < startTime.add(4 days)){
       // day 3, day 4
       return 385;
-    }else if (now < startTime.add(6 days)){
+    } else if (now < startTime.add(6 days)){
       // day 5, day 6
       return 359; 
-    }else if (now < endTime){
+    } else if (now < endTime){
       // no discount
       return 350;
     }
